@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:gravity="center_horizontal"
+    tools:context="myapp.com.myappportfolio.MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/header"
+        android:text="My Nanodegree Apps!"/>
+
+    <Button
+        android:id="@+id/btn_popular_movies"
+        android:layout_below="@id/textview"
+        style="@style/button"
+        android:text="POPULAR MOVIES"/>
+
+    <Button
+        android:id="@+id/btn_stock_hawk"
+        android:layout_below="@id/btn_popular_movies"
+        style="@style/button"
+        android:text="Stock Hawk"/>
+
+    <Button
+        android:id="@+id/btn_build_bigger"
+        android:layout_below="@id/btn_stock_hawk"
+        style="@style/button"
+        android:text="Build it Bigger"/>
+
+    <Button
+        android:id="@+id/btn_app_material"
+        android:layout_below="@id/btn_build_bigger"
+        style="@style/button"
+        android:text="Make Your App Material"/>
+
+    <Button
+        android:id="@+id/btn_ubiquitous"
+        android:layout_below="@id/btn_app_material"
+        style="@style/button"
+        android:text="Go Ubiquitous"/>
+
+    <Button
+        android:id="@+id/btn_capstone"
+        android:layout_below="@id/btn_ubiquitous"
+        style="@style/button"
+        android:text="Capstone"/>
+
+</RelativeLayout>
